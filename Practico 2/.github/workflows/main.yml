@@ -1,0 +1,73 @@
+name: intro-progra
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: CMake Config
+        run: cmake -S . -B build
+      - name: make
+        run: cd build && make
+      - name: Run Tests
+        run: cd build && ctest # ctest --output-on-failure
+      - name: Exercise 1
+        if: always()
+        run: cd build/tests && ./exercise1_test
+      - name: Exercise 2
+        if: always()
+        run: cd build/tests && ./exercise2_test
+      - name: Exercise 3
+        if: always()
+        run: cd build/tests && ./exercise3_test
+      - name: Exercise 4
+        if: always()
+        run: cd build/tests && ./exercise4_test
+      - name: Exercise 5
+        if: always()
+        run: cd build/tests && ./exercise5_test
+      - name: Exercise 6
+        if: always()
+        run: cd build/tests && ./exercise6_test
+      - name: Exercise 7
+        if: always()
+        run: cd build/tests && ./exercise7_test
+      - name: Exercise 8
+        if: always()
+        run: cd build/tests && ./exercise8_test
+      - name: Exercise 9
+        if: always()
+        run: cd build/tests && ./exercise9_test
+      - name: Exercise 10
+        if: always()
+        run: cd build/tests && ./exercise10_test
+      - name: Exercise 11
+        if: always()
+        run: cd build/tests && ./exercise11_test
+      - name: Exercise 12
+        if: always()
+        run: cd build/tests && ./exercise12_test
+      - name: Exercise 13
+        if: always()
+        run: cd build/tests && ./exercise13_test
+      - name: Exercise 14
+        if: always()
+        run: cd build/tests && ./exercise14_test
+      - name: Exercise 15
+        if: always()
+        run: cd build/tests && ./exercise15_test
+      - name: Exercise 16
+        if: always()
+        run: cd build/tests && ./exercise16_test
+      - name: Exercise 17
+        if: always()
+        run: cd build/tests && ./exercise17_test
+      - name: Exercise 18 and 19
+        if: always()
+        run: cd build/tests && ./exercise18_19_test

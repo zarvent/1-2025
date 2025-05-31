@@ -1,0 +1,82 @@
+include(FetchContent)
+
+FetchContent_Declare(
+  googletest
+  GIT_REPOSITORY https://github.com/google/googletest.git
+  GIT_TAG        release-1.11.0
+)
+FetchContent_MakeAvailable(googletest)
+
+# Configuración de Google Test
+add_library(GTest::GTest INTERFACE IMPORTED)
+target_link_libraries(GTest::GTest INTERFACE gtest_main)
+
+# Enlace de pruebas con Google Test
+add_executable(practico_2_ejercicio_1_test practico_2_ejercicio_1_test.cpp)
+target_link_libraries(practico_2_ejercicio_1_test PRIVATE GTest::GTest practico_2_ejercicios)
+
+add_executable(practico_2_ejercicio_2_test practico_2_ejercicio_2_test.cpp)
+target_link_libraries(practico_2_ejercicio_2_test PRIVATE GTest::GTest practico_2_ejercicios)
+
+add_executable(practico_2_ejercicio_3_test practico_2_ejercicio_3_test.cpp)
+target_link_libraries(practico_2_ejercicio_3_test PRIVATE GTest::GTest practico_2_ejercicios)
+
+add_executable(practico_2_ejercicio_4_test practico_2_ejercicio_4_test.cpp)
+target_link_libraries(practico_2_ejercicio_4_test PRIVATE GTest::GTest practico_2_ejercicios)
+
+add_executable(practico_2_ejercicio_5_test practico_2_ejercicio_5_test.cpp)
+target_link_libraries(practico_2_ejercicio_5_test PRIVATE GTest::GTest practico_2_ejercicios)
+
+add_executable(practico_2_ejercicio_6_test practico_2_ejercicio_6_test.cpp)
+target_link_libraries(practico_2_ejercicio_6_test PRIVATE GTest::GTest practico_2_ejercicios)
+
+add_executable(practico_2_ejercicio_7_test practico_2_ejercicio_7_test.cpp)
+target_link_libraries(practico_2_ejercicio_7_test PRIVATE GTest::GTest practico_2_ejercicios)
+
+add_executable(practico_2_ejercicio_8_test practico_2_ejercicio_8_test.cpp)
+target_link_libraries(practico_2_ejercicio_8_test PRIVATE GTest::GTest practico_2_ejercicios)
+
+add_executable(practico_2_ejercicio_9_test practico_2_ejercicio_9_test.cpp)
+target_link_libraries(practico_2_ejercicio_9_test PRIVATE GTest::GTest practico_2_ejercicios)
+
+add_executable(practico_2_ejercicio_10_test practico_2_ejercicio_10_test.cpp)
+target_link_libraries(practico_2_ejercicio_10_test PRIVATE GTest::GTest practico_2_ejercicios)
+
+add_executable(practico_2_ejercicio_11_test practico_2_ejercicio_11_test.cpp)
+target_link_libraries(practico_2_ejercicio_11_test PRIVATE GTest::GTest practico_2_ejercicios)
+
+add_executable(practico_2_ejercicio_12_test practico_2_ejercicio_12_test.cpp)
+target_link_libraries(practico_2_ejercicio_12_test PRIVATE GTest::GTest practico_2_ejercicios)
+
+add_executable(practico_2_ejercicio_13_test practico_2_ejercicio_13_test.cpp)
+target_link_libraries(practico_2_ejercicio_13_test PRIVATE GTest::GTest practico_2_ejercicios)
+
+add_executable(practico_2_ejercicio_14_test practico_2_ejercicio_14_test.cpp)
+target_link_libraries(practico_2_ejercicio_14_test PRIVATE GTest::GTest practico_2_ejercicios)
+
+add_executable(practico_2_ejercicio_15_test practico_2_ejercicio_15_test.cpp)
+target_link_libraries(practico_2_ejercicio_15_test PRIVATE GTest::GTest practico_2_ejercicios)
+
+add_executable(practico_2_ejercicio_16_test practico_2_ejercicio_16_test.cpp)
+target_link_libraries(practico_2_ejercicio_16_test PRIVATE GTest::GTest practico_2_ejercicios)
+
+add_executable(practico_2_ejercicio_17_test practico_2_ejercicio_17_test.cpp)
+target_link_libraries(practico_2_ejercicio_17_test PRIVATE GTest::GTest practico_2_ejercicios)
+
+add_executable(practico_2_ejercicio_18_19_test practico_2_ejercicio_18_19_test.cpp)
+target_link_libraries(practico_2_ejercicio_18_19_test PRIVATE GTest::GTest practico_2_ejercicios)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
