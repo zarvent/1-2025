@@ -4,7 +4,21 @@
 using namespace std;  // Permite usar nombres como cout sin el prefijo std::
 
 void ejercicio_1(string s1) {
-    // TODO: Implementar lógica para el ejercicio 1
+    // Inicializamos una variable para rastrear el índice actual
+    int index = 0;
+
+    // Iteramos sobre cada carácter de la cadena
+    for (size_t i = 0; i < s1.length(); ++i) {
+        // Si encontramos un espacio, imprimimos el índice actual
+        if (s1[i] == ' ') {
+            cout << index << "\n";
+        }
+        // Incrementamos el índice
+        ++index;
+    }
+
+    // Imprimimos el índice después del último carácter de la última palabra
+    cout << index << "\n";
 }
 
 void ejercicio_2(string s1) {
