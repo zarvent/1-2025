@@ -1,24 +1,19 @@
+
+//Incluire las librerias necesarias
 #include <cmath>  // Biblioteca para funciones matemáticas
 #include <iostream>  // Biblioteca para entrada/salida estándar
 
 using namespace std;  // Permite usar nombres como cout sin el prefijo std::
 
 void ejercicio_1(string s1) {
-    // Inicializamos una variable para rastrear el índice actual
-    int index = 0;
-
-    // Iteramos sobre cada carácter de la cadena
-    for (size_t i = 0; i < s1.length(); ++i) {
-        // Si encontramos un espacio, imprimimos el índice actual
-        if (s1[i] == ' ') {
-            cout << index << "\n";
-        }
-        // Incrementamos el índice
-        ++index;
+    // Logica del ejercicio 1 del practico 2
+    int index = 0; //El Indice Actual
+    for( int zarvent = 0; zarvent < s1.length(); zarvent++){
+      if (s1[zarvent] == ' '){
+        cout << zarvent << endl; 
+      }
     }
-
-    // Imprimimos el índice después del último carácter de la última palabra
-    cout << index << "\n";
+    cout << s1.length() << endl;
 }
 
 void ejercicio_2(string s1) {
