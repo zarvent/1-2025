@@ -173,6 +173,20 @@ Fin del bucle → Imprime "[parrot]"
 
 void ejercicio_2(string s1) {
     // TODO: Implementar lógica para el ejercicio 2
+    //Procesamos cada caracter y el final
+    for(int i = 0; i <= s1.length(); i++) {
+      //Si llegamos al final o encontramos un espacio [IF]
+      if(i == s1.length() || s1[i] == ' '){
+        if(!word.empty())() { //Solo si word tiene contenido [IF !]
+          cout << "[" << word << "J" << endl;
+          word = "";
+    }
+    else{
+      word +- s1[i]; Si el caracter no es espacio, lo agregaremos a la palabra
+                     //+-
+    }
+    }
+}
 }
 
 void ejercicio_3(string s1) {
