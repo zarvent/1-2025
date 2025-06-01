@@ -66,10 +66,10 @@ void ejercicio_1(string s1) {
     int index = 0; //El Indice Actual
     for( int zarvent = 0; zarvent < s1.length(); zarvent++){
       if (s1[zarvent] == ' '){
-        cout << zarvent << endl; 
+        cout << zarvent -1 << endl; 
       }
     }
-    cout << s1.length() << endl;
+    cout << s1.length() -1 << endl;
 }
 
 /*============================
@@ -178,7 +178,7 @@ void ejercicio_2(string s1) {
     for(int i = 0; i <= s1.length(); i++) {
       //Si llegamos al final o encontramos un espacio [IF]
       if(i == s1.length() || s1[i] == ' '){
-        if(!word.empty){ //Solo si word tiene contenido [IF !]
+        if(!word.empty()) { //Solo si word tiene contenido [IF !]
           cout << "[" << word << "]" << endl;
           word = "";
     }
