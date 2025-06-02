@@ -28,7 +28,7 @@ Cursé las siguientes 2 carreras en la sede en Santa Cruz de la Sierra:
 | **ISW-111** | Fundamentos en Ingeniería de Software | Par. 2 | Paulo César Loayza Carrasco |
 | **SIS-111** | Introducción a la Programación | Par. 2 | José Jesús Cabrera Pantoja |
 | **MAT-123** | Álgebra Lineal | Par. 1 | Tomás Wilson Alemán Ramírez |
-| **IMT-141** | Introducción a la Ingeniería Mecatrónica | Par. 1 | Job Angel Ledezma |
+| **IMT-141** | Introducción a la Ingeniería Mecatrónica | Par. 1 | Job Angel Ledezma Perez |
 | **MAT-142** | Probabilidad y Estadística I | Par. 2 | Carmen Silvia Barca Magarazo |
 | **MAT-030** | Matemática Básica | Par. 2 | Robert Flores Cañizares |
 | **FIS-111** | Física I | Par. 2 | Víctor Hugo Lobo Limpias |
