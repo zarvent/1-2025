@@ -22,7 +22,7 @@ Cursé las siguientes 2 carreras en la sede en Santa Cruz de la Sierra:
 
 ---
 
-### 📚 Materias cursadas:
+### 📚 Materias inscritas:
 
 | Código | Materia | Paralelo | Docente |
 |--------|---------|----------|---------|
