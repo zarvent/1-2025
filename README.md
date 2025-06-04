@@ -2,7 +2,7 @@
 
 Aquí guardaré toda mi formación del primer semestre del año 2025
 
-## 🎓 Mi formación proviene de:
+## 🎓 Mi formación universitaria proviene de:
 
 ### Universidad Católica Boliviana (UCB)
 
