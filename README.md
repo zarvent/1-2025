@@ -20,6 +20,8 @@ Cursé las siguientes 2 carreras en la sede en Santa Cruz de la Sierra:
 #### 💻 Ingeniería de Software
 **Docente:** José Jesús Cabrera Pantoja
 
+---
+
 ### 📚 Materias cursadas:
 
 | Código | Materia | Paralelo | Docente |
