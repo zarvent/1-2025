@@ -2,10 +2,7 @@
 
 Aquí guardaré toda mi formación del primer semestre del año 2025
 
-## 🎓 Mi formación universitaria proviene de:
-
-### Universidad Católica Boliviana (UCB)
-
+## 🎓Universidad Católica Boliviana (UCB)
 Cursé las siguientes 2 carreras en la sede en Santa Cruz de la Sierra:
 
 ---
